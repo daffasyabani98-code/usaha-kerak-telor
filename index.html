@@ -1,1 +1,85 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form UMKM Kerak Telor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-green-100 min-h-screen flex items-center justify-center">  <div class="bg-white shadow-xl rounded-2xl p-6 w-full max-w-2xl fade-in">
+    <h1 class="text-2xl font-bold text-center text-blue-600 mb-6">Form UMKM</h1><form class="space-y-4">
+  <div>
+    <label class="block font-semibold">Nama UMKM</label>
+    <input type="text" value="Kerak Telor" class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+  </div>
 
+  <div>
+    <label class="block font-semibold">Nama Pemilik</label>
+    <input type="text" value="Vinco" class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+  </div>
+
+  <div>
+    <label class="block font-semibold">Alamat Lengkap</label>
+    <textarea class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">jalan monumen nasional</textarea>
+  </div>
+
+  <div>
+    <label class="block font-semibold">No. HP / WhatsApp</label>
+    <input type="text" value="085880479588" class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+  </div>
+
+  <div>
+    <label class="block font-semibold">Email (opsional)</label>
+    <input type="email" placeholder="Masukkan email" class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+  </div>
+
+  <div>
+    <label class="block font-semibold">Deskripsi Usaha</label>
+    <textarea class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">bisnis kuliner tradisional Betawi yang menjual camilan berbahan dasar beras ketan putih, telur (ayam/bebek), serundeng, dan ebi</textarea>
+  </div>
+
+  <div>
+    <label class="block font-semibold">Kategori Usaha</label>
+    <input type="text" value="kuliner" class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+  </div>
+
+  <div>
+    <label class="block font-semibold">Jam Operasional</label>
+    <input type="text" value="06.00 - 10.00" class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+  </div>
+
+  <div>
+    <label class="block font-semibold">Daftar Produk</label>
+    <input type="text" value="kerak telor ayam dan kerak telor bebek" class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+  </div>
+
+  <div>
+    <label class="block font-semibold">Nama Produk</label>
+    <input type="text" value="Kerak Telor" class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+  </div>
+
+  <div>
+    <label class="block font-semibold">Harga</label>
+    <input type="text" value="20k - 25k" class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+  </div>
+
+  <div>
+    <label class="block font-semibold">Deskripsi Produk</label>
+    <textarea class="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400">rasanya sangat enak dan bisa di makan di semua kalangan</textarea>
+  </div>
+
+  <button type="submit" class="w-full bg-blue-500 hover:bg-green-500 text-white font-bold py-2 px-4 rounded-lg transition duration-300">
+    Simpan Data
+  </button>
+</form>
+
+  </div></body>
+</html>
